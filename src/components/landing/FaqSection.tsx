@@ -13,7 +13,7 @@ const FaqSection = () => {
   const ref = useScrollAnimation('scroll-fade-up', true);
 
   return (
-    <section className="py-16 md:py-24 px-4 relative noise-bg">
+    <section className="py-16 md:py-24 px-4 relative noise-bg bg-gradient-to-b from-background via-accent/5 to-cream-dark/50">
       <div className="relative z-10 max-w-content mx-auto">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground text-center mb-12">
           Suas dúvidas, respondidas:

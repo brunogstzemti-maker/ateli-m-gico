@@ -12,7 +12,7 @@ const ProductSection = () => {
   const ref = useScrollAnimation('scroll-fade-up', true);
 
   return (
-    <section className="py-16 md:py-24 px-4 relative noise-bg">
+    <section className="py-16 md:py-24 px-4 relative noise-bg bg-gradient-to-br from-background via-primary/5 to-accent/10">
       <div className="relative z-10 max-w-content mx-auto text-center">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-2">
           Apresentando o Ateliê de Páscoa 🍫

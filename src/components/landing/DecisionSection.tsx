@@ -4,7 +4,7 @@ const DecisionSection = () => {
   const ref = useScrollAnimation('scroll-scale-in', true);
 
   return (
-    <section className="py-16 md:py-24 px-4 relative noise-bg">
+    <section className="py-16 md:py-24 px-4 relative noise-bg bg-gradient-to-b from-cream-dark/30 via-background to-primary/5">
       <div className="relative z-10 max-w-content mx-auto text-center">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-12">
           Você decide agora:

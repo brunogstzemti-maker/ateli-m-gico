@@ -17,7 +17,7 @@ const ProductSection = () => {
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-2">
           Apresentando o Ateliê de Páscoa 🍫
         </h2>
-        <p className="font-body text-lg text-muted-foreground mb-12">
+        <p className="font-body font-medium text-lg text-muted-foreground mb-12">
           O app que organiza seu negócio de ovos na palma da mão.
         </p>
 

@@ -13,7 +13,7 @@ const FinalUrgencySection = () => {
         <p className="font-body text-destructive-foreground/80 mb-6">
           Ao sair, o valor volta para R$ 47.
         </p>
-        <p className="font-display font-black text-5xl text-destructive-foreground tabular-nums mb-8">{timer}</p>
+        <p className="font-display font-extrabold text-5xl text-destructive-foreground tabular-nums mb-8">{timer}</p>
         <a
           href="#"
           className="shimmer-btn inline-block bg-primary hover:bg-gold-light text-primary-foreground font-body font-bold text-base md:text-lg py-4 px-10 rounded-xl transition-colors duration-300"

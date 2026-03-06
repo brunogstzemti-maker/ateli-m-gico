@@ -16,7 +16,7 @@ const ProblemSection = () => {
         <h2 className="font-display font-bold text-3xl md:text-4xl text-cream-warm mb-3">
           O maior inimigo da confeiteira não é a falta de receita.
         </h2>
-        <p className="font-display text-xl text-gold-light mb-12">É a falta de organização.</p>
+        <p className="font-display font-medium text-xl text-gold-light mb-12 normal-case tracking-normal">É a falta de organização.</p>
 
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {problems.map((p, i) => (

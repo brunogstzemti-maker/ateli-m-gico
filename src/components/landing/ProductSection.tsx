@@ -30,6 +30,7 @@ const ProductSection = () => {
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {/* Orders Interface Image */}
           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+            <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
             <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
           </div>
 

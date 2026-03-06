@@ -12,8 +12,9 @@ const HeroSection = () => {
           className="font-display font-extrabold text-4xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
           style={{ animation: 'hero-headline 0.6s ease-out' }}
         >
-          Espera! Tem um detalhe que pode{' '}
-          <span className="text-primary">triplicar o seu lucro</span> nessa Páscoa.
+          Espera! sua compra foi confirmada.
+          Mas tem um detalhe que pode{' '}
+          <span style={{ color: 'hsl(38, 39%, 65%)' }}>triplicar seu lucro</span> nessa páscoa.
         </h1>
 
         {/* Subheadline */}

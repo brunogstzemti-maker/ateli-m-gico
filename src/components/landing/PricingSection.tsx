@@ -27,7 +27,7 @@ const PricingSection = () => {
 
           <a
             href="#"
-            className="shimmer-btn block w-full bg-primary hover:bg-gold-light text-primary-foreground font-body font-bold text-base md:text-lg py-4 rounded-xl transition-colors duration-300"
+            className="shimmer-btn block w-full bg-success hover:bg-success/90 text-success-foreground font-body font-bold text-base md:text-lg py-4 rounded-xl transition-colors duration-300"
           >
             ▶ SIM! QUERO O ATELIÊ DE PÁSCOA POR R$ 27
           </a>

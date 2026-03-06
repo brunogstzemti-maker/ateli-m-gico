@@ -1,7 +1,7 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import ordersImage from '@/assets/orders-interface.png';
 
 const benefits = [
-  { icon: '📦', title: 'Gestão de pedidos', desc: 'Cadastre clientes, quantidades, datas e status' },
   { icon: '💰', title: 'Calculadora de precificação', desc: 'Descubra o preço exato para lucrar de verdade' },
   { icon: '🛒', title: 'Lista de compras inteligente', desc: 'Gerada automaticamente pelos seus pedidos' },
   { icon: '🍫', title: 'Sua coleção de receitas', desc: 'Organize e acesse tudo em um clique' },
@@ -28,12 +28,15 @@ const ProductSection = () => {
         </p>
 
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          {/* Orders Interface Image */}
+          <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+            <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
+          </div>
+
           {benefits.map((b, i) => (
             <div
               key={i}
-              className={`scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300 text-left ${
-                i === benefits.length - 1 ? 'sm:col-span-2 sm:max-w-[calc(50%-0.625rem)] sm:mx-auto' : ''
-              }`}
+              className={`scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300 text-left`}
             >
               <span className="text-5xl block mb-3">{b.icon}</span>
               <h3 className="font-display font-bold text-lg text-foreground mb-1">{b.title}</h3>

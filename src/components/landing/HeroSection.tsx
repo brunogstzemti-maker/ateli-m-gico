@@ -18,7 +18,7 @@ const HeroSection = () => {
 
         {/* Subheadline */}
         <p
-          className="font-body font-medium text-lg text-muted-foreground max-w-xl mx-auto mb-12"
+          className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-12"
           style={{ animation: 'hero-headline 0.6s ease-out 0.2s both' }}
         >
           Você tem as receitas. Agora <span className="underline decoration-primary decoration-2 underline-offset-4">organize seus pedidos, calcule seus preços e acompanhe sua meta</span>

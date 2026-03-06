@@ -10,7 +10,7 @@ const HeroSection = () => {
         {/* Headline */}
         <h1
           className="font-display font-extrabold text-4xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
-          style={{ animation: 'hero-headline 0.6s ease-out, float-gentle 4s ease-in-out 1s infinite' }}
+          style={{ animation: 'hero-headline 0.6s ease-out' }}
         >
           Espera! Tem um detalhe que pode{' '}
           <span className="text-primary">triplicar o seu lucro</span> nessa Páscoa.

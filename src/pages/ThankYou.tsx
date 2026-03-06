@@ -49,7 +49,6 @@ const ThankYou = () => {
           </h2>
           <ul className="font-body text-foreground space-y-4 text-base">
             <li>✅ Verifique seu e-mail — o seu produto ja foi enviado</li>
-            <li>📱 Salve o link nos favoritos para acessar pelo celular</li>
             <li>🔒 Seu acesso é vitalício — seu produto estará sempre disponível para você</li>
           </ul>
         </div>

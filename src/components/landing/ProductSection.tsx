@@ -1,11 +1,11 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const benefits = [
-  { icon: '📦', title: 'Gestão de Pedidos', desc: 'Cadastre clientes, quantidades, datas e status em segundos' },
-  { icon: '💰', title: 'Calculadora de Precificação', desc: 'Descubra o preço exato para lucrar de verdade em cada ovo' },
-  { icon: '🛒', title: 'Lista de Compras Inteligente', desc: 'Gerada automaticamente pelos seus pedidos em aberto' },
-  { icon: '🍫', title: 'Coleção de Receitas', desc: 'Suas receitas organizadas e acessíveis em um clique' },
-  { icon: '📊', title: 'Dashboard de Vendas', desc: 'Acompanhe sua meta da Páscoa em tempo real' },
+  { icon: '📦', title: 'Gestão de pedidos', desc: 'Cadastre clientes, quantidades, datas e status' },
+  { icon: '💰', title: 'Calculadora de precificação', desc: 'Descubra o preço exato para lucrar de verdade' },
+  { icon: '🛒', title: 'Lista de compras inteligente', desc: 'Gerada automaticamente pelos seus pedidos' },
+  { icon: '🍫', title: 'Sua coleção de receitas', desc: 'Organize e acesse tudo em um clique' },
+  { icon: '📊', title: 'Dashboard de vendas', desc: 'Acompanhe sua meta da Páscoa em tempo real' },
 ];
 
 const ProductSection = () => {
@@ -14,11 +14,17 @@ const ProductSection = () => {
   return (
     <section className="py-16 md:py-24 px-4 relative noise-bg bg-gradient-to-br from-background via-primary/5 to-accent/10">
       <div className="relative z-10 max-w-content mx-auto text-center">
+        <p className="font-body font-medium text-lg text-muted-foreground mb-2">
+          Apresentando:
+        </p>
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-2">
-          Apresentando o Ateliê de Páscoa 🍫
+          Ateliê de Páscoa 🍫
         </h2>
-        <p className="font-body font-medium text-lg text-muted-foreground mb-12">
+        <p className="font-body font-medium text-lg text-muted-foreground mb-4">
           O app que organiza seu negócio de ovos na palma da mão.
+        </p>
+        <p className="font-body text-muted-foreground text-base mb-12">
+          Com o Ateliê de Páscoa, você vai ter acesso a:
         </p>
 
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -35,6 +41,10 @@ const ProductSection = () => {
             </div>
           ))}
         </div>
+
+        <p className="font-body text-muted-foreground text-base mt-10">
+          Tudo isso funciona direto no celular, sem instalar nada, sem complicação.
+        </p>
       </div>
     </section>
   );

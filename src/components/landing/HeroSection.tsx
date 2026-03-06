@@ -12,17 +12,41 @@ const HeroSection = () => {
           className="font-display font-extrabold text-4xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
           style={{ animation: 'hero-headline 0.6s ease-out' }}
         >
-          Espera! sua compra foi confirmada.
+          Espera! Sua compra foi confirmada. 🎉
+          <br />
           Mas tem um detalhe que pode{' '}
-          <span style={{ color: 'hsl(38, 39%, 65%)' }}>triplicar seu lucro</span> nessa páscoa.
+          <span style={{ color: 'hsl(38, 39%, 65%)' }}>triplicar o seu lucro</span> nessa Páscoa.
         </h1>
 
         {/* Subheadline */}
         <p
-          className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-12"
+          className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-4"
           style={{ animation: 'hero-headline 0.6s ease-out 0.2s both' }}
         >
-          Você tem as receitas agora.Mais vai ter muito trabalho para ter tudo organizado, com esse <span className="underline decoration-primary decoration-2 underline-offset-4">Aplicativo você organiza seu pedidos, calcula seus preços e acompanha sua meta- tudo na palma da sua mão</span>.
+          Você acabou de dar o primeiro passo: agora você tem as receitas.
+          <br />
+          Mas deixa eu te fazer uma pergunta rápida...
+        </p>
+
+        <p
+          className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-4 underline decoration-primary decoration-2 underline-offset-4"
+          style={{ animation: 'hero-headline 0.6s ease-out 0.3s both' }}
+        >
+          Quando os pedidos começarem a chegar, como você vai controlar tudo?
+        </p>
+
+        <p
+          className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-4"
+          style={{ animation: 'hero-headline 0.6s ease-out 0.4s both' }}
+        >
+          Quantos ovos prometeu pra cada cliente? Em qual data entrega o pedido da Ana? Qual receita tem o maior lucro? Quanto falta pra bater sua meta?
+        </p>
+
+        <p
+          className="font-body font-bold text-lg text-foreground max-w-xl mx-auto mb-12"
+          style={{ animation: 'hero-headline 0.6s ease-out 0.5s both' }}
+        >
+          Se você respondeu "ainda não sei" ou "vou anotar num papel"... você está prestes a deixar dinheiro na mesa.
         </p>
 
         {/* Phone Mockup with animated screens */}

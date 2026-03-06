@@ -66,7 +66,15 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-body;
+    @apply text-foreground font-body;
+    background: linear-gradient(
+      to bottom,
+      #FFFFFF 0%,
+      #FAE8E8 40%,
+      #F9E4E4 55%,
+      #FFFFFF 100%
+    );
+    min-height: 100vh;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;

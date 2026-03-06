@@ -11,7 +11,7 @@ const FinalUrgencySection = () => {
           Esta oferta desaparece quando você fechar esta página.
         </h2>
         <p className="font-body text-destructive-foreground/80 mb-6">
-          Ao sair, o valor volta para R$ 47.
+          Ao sair, o valor volta para R$ 97,00.
         </p>
         <p className="font-display font-extrabold text-5xl text-gold-light tabular-nums mb-8">{timer}</p>
         <a

@@ -13,7 +13,7 @@ const HeroSection = () => {
 
         {/* Headline */}
         <h1
-          className="font-display font-black text-4xl md:text-[56px] md:leading-[1.1] leading-tight text-foreground mb-6"
+          className="font-display font-extrabold text-4xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
           style={{ animation: 'hero-headline 0.6s ease-out' }}
         >
           Espera! Tem um detalhe que pode{' '}
@@ -22,7 +22,7 @@ const HeroSection = () => {
 
         {/* Subheadline */}
         <p
-          className="font-body text-lg text-muted-foreground max-w-xl mx-auto mb-12"
+          className="font-body font-medium text-lg text-muted-foreground max-w-xl mx-auto mb-12"
           style={{ animation: 'hero-headline 0.6s ease-out 0.2s both' }}
         >
           Você tem as receitas. Agora organize seus pedidos, calcule seus preços e acompanhe sua meta

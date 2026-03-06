@@ -19,7 +19,7 @@ const DecisionSection = () => {
             </p>
             <a
               href="#"
-              className="shimmer-btn block bg-success hover:bg-success/90 text-success-foreground font-body font-bold py-3 rounded-xl transition-colors duration-300"
+              className="shimmer-btn block bg-success hover:bg-success/90 text-success-foreground font-body font-bold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
               Quero o Ateliê de Páscoa
             </a>

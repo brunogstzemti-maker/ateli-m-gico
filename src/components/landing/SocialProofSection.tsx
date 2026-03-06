@@ -1,9 +1,9 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const testimonials = [
-  { name: 'Fernanda S.', city: 'São Paulo', color: 'bg-primary', text: 'Finalmente parei de usar papel e WhatsApp. Minha Páscoa foi muito mais tranquila!' },
-  { name: 'Cláudia M.', city: 'Curitiba', color: 'bg-accent', text: 'A calculadora me mostrou que estava vendendo barato há 3 anos. Aumentei meu preço e não perdi nenhum cliente.' },
-  { name: 'Ana Paula R.', city: 'Belo Horizonte', color: 'bg-success', text: 'Organizei 47 pedidos pelo app e não esqueci nenhum. Foi minha Páscoa mais lucrativa!' },
+  { name: 'Fernanda S.', city: 'São Paulo', color: 'bg-primary', text: 'Finalmente parei de usar papel e WhatsApp. Minha Páscoa foi muito mais tranquila esse ano!' },
+  { name: 'Cláudia M.', city: 'Curitiba', color: 'bg-accent', text: 'A calculadora de precificação me mostrou que eu estava vendendo barato há 3 anos. Aumentei meu preço e não perdi nenhum cliente.' },
+  { name: 'Ana Paula R.', city: 'Belo Horizonte', color: 'bg-success', text: 'Eu organizei 47 pedidos pelo app e não esqueci nenhum. Foi minha Páscoa mais lucrativa!' },
 ];
 
 const SocialProofSection = () => {

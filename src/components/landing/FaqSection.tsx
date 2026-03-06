@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const faqs = [
-  { q: 'Preciso instalar alguma coisa?', a: 'Não. Funciona direto no navegador do celular.' },
-  { q: 'Preciso pagar mensalidade?', a: 'Não. Uma única vez, acesso vitalício.' },
-  { q: 'É difícil de usar?', a: 'Se você usa WhatsApp, você usa o Ateliê de Páscoa.' },
-  { q: 'Já tenho as receitas, preciso do app?', a: 'As receitas ensinam a fazer. O app ajuda a vender, organizar e lucrar.' },
+  { q: 'Preciso instalar alguma coisa?', a: 'Não. O app funciona direto pelo navegador do seu celular ou computador. É só acessar o link e começar a usar.' },
+  { q: 'Tenho que pagar todo mês?', a: 'Não. Você paga uma única vez e o acesso é vitalício. Pode usar essa Páscoa, na próxima, e em todas as outras.' },
+  { q: 'Não tenho experiência com tecnologia.', a: 'Foi feito exatamente pra você. Se você sabe usar o WhatsApp, sabe usar o Ateliê de Páscoa.' },
+  { q: 'Já tenho as receitas. Será que preciso?', a: 'As receitas te ensinam a fazer. O app te ajuda a vender, organizar e lucrar de verdade.' },
 ];
 
 const FaqSection = () => {

@@ -26,7 +26,7 @@ const PricingSection = () => {
           </div>
 
           <p className="font-body text-cream-warm/60 line-through text-lg mb-1">De R$ 47 por apenas</p>
-          <p className="font-display font-extrabold text-6xl md:text-7xl text-gold-light mb-2 tracking-wide">R$ 27<span className="text-3xl">,00</span></p>
+          <p className="font-display font-extrabold text-6xl md:text-7xl text-gold-light mb-2 tracking-wide">R$ 37<span className="text-3xl">,00</span></p>
           <p className="font-body text-cream-warm/70 text-sm mb-8">
             Acesso vitalício · Sem mensalidade · Funciona pelo celular
           </p>

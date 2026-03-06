@@ -1,9 +1,10 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import testimonialFernanda from '@/assets/testimonial-fernanda.jpg';
+import testimonialClaudia from '@/assets/testimonial-claudia.jpg';
 
 const testimonials = [
-  { name: 'Fernanda S.', city: 'São Paulo', color: 'bg-primary', text: 'Finalmente parei de usar papel e WhatsApp. Minha Páscoa foi muito mais tranquila esse ano!' },
-  { name: 'Cláudia M.', city: 'Curitiba', color: 'bg-accent', text: 'A calculadora de precificação me mostrou que eu estava vendendo barato há 3 anos. Aumentei meu preço e não perdi nenhum cliente.' },
-  { name: 'Ana Paula R.', city: 'Belo Horizonte', color: 'bg-success', text: 'Eu organizei 47 pedidos pelo app e não esqueci nenhum. Foi minha Páscoa mais lucrativa!' },
+  { name: 'Fernanda Souza', image: testimonialFernanda },
+  { name: 'Cláudia Maria', image: testimonialClaudia },
 ];
 
 const SocialProofSection = () => {
@@ -16,25 +17,18 @@ const SocialProofSection = () => {
           O que outras confeiteiras estão dizendo:
         </h2>
 
-        <div ref={ref} className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {testimonials.map((t, i) => (
             <div
               key={i}
-              className="scroll-fade-up relative bg-background rounded-xl p-6 shadow-warm-sm text-left overflow-hidden"
+              className="scroll-fade-up rounded-2xl overflow-hidden shadow-warm-lg"
             >
-              {/* Decorative quote */}
-              <span className="absolute top-2 right-4 font-display text-8xl text-primary/10 leading-none select-none">"</span>
-
-              <div className="flex items-center gap-3 mb-4 relative z-10">
-                <div className={`${t.color} w-10 h-10 rounded-full flex items-center justify-center text-cream-warm font-display font-bold text-sm`}>
-                  {t.name[0]}
-                </div>
-                <div>
-                  <p className="font-body font-medium text-foreground text-sm">{t.name}</p>
-                  <p className="font-body text-muted-foreground text-xs">{t.city}</p>
-                </div>
-              </div>
-              <p className="font-body text-foreground text-sm italic relative z-10">"{t.text}"</p>
+              <img
+                src={t.image}
+                alt={`Depoimento de ${t.name}`}
+                className="w-full h-auto"
+                loading="lazy"
+              />
             </div>
           ))}
         </div>

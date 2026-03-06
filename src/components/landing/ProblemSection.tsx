@@ -11,7 +11,7 @@ const ProblemSection = () => {
   const ref = useScrollAnimation('scroll-fade-up', true);
 
   return (
-    <section className="bg-chocolate-deep py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-br from-chocolate-deep via-chocolate-deep to-chocolate-medium/80 py-16 md:py-24 px-4">
       <div className="max-w-content mx-auto text-center">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-cream-warm mb-3">
           O maior inimigo da confeiteira não é a falta de receita.

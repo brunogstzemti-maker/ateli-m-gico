@@ -4,7 +4,7 @@ const FinalUrgencySection = () => {
   const timer = useCountdown(10);
 
   return (
-    <section className="bg-destructive py-16 md:py-20 px-4 text-center">
+    <section className="bg-gradient-to-br from-destructive via-destructive to-rose-alert/80 py-16 md:py-20 px-4 text-center">
       <div className="max-w-content mx-auto">
         <span className="text-5xl block mb-4">⚠️</span>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-destructive-foreground mb-3">

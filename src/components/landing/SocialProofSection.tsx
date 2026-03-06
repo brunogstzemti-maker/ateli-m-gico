@@ -10,7 +10,7 @@ const SocialProofSection = () => {
   const ref = useScrollAnimation('scroll-fade-up', true);
 
   return (
-    <section className="bg-cream-dark py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-cream-dark via-cream-dark to-background py-16 md:py-24 px-4">
       <div className="max-w-content mx-auto text-center">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-12">
           O que outras confeiteiras estão dizendo:

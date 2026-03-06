@@ -4,7 +4,7 @@ const PricingSection = () => {
   const ref = useScrollAnimation('scroll-scale-in');
 
   return (
-    <section className="bg-chocolate-deep py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-br from-chocolate-deep via-chocolate-deep to-chocolate-medium/70 py-16 md:py-24 px-4">
       <div className="max-w-content mx-auto text-center">
         <p className="font-body text-cream-warm/80 text-base md:text-lg mb-12 max-w-lg mx-auto">
           Se você vender apenas <strong className="text-gold-light">1 ovo a mais</strong> por ter organizado seus pedidos,

@@ -16,7 +16,7 @@ const FinalUrgencySection = () => {
         <p className="font-display font-extrabold text-5xl text-gold-light tabular-nums mb-8">{timer}</p>
         <a
           href="#"
-          className="shimmer-btn inline-block bg-primary hover:bg-gold-light text-primary-foreground font-body font-bold text-base md:text-lg py-4 px-10 rounded-xl transition-colors duration-300"
+          className="shimmer-btn inline-block bg-success hover:bg-success/90 text-success-foreground font-body font-bold text-base md:text-lg py-4 px-10 rounded-xl transition-colors duration-300"
         >
           ▶ SIM! QUERO O ATELIÊ DE PÁSCOA POR R$ 27
         </a>

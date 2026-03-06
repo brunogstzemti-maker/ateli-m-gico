@@ -2,7 +2,7 @@ import PhoneMockup from './PhoneMockup';
 
 const HeroSection = () => {
   return (
-    <section className="relative noise-bg overflow-hidden bg-gradient-to-b from-background via-cream-dark/40 to-background">
+    <section className="relative noise-bg overflow-hidden bg-gradient-to-br from-cream-warm via-gold/5 to-accent/10">
       <div className="relative z-10 max-w-content mx-auto px-4 py-16 md:py-24 text-center">
         {/* Badge */}
         <div

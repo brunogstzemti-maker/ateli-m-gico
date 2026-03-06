@@ -3,7 +3,7 @@ import PhoneMockup from './PhoneMockup';
 const HeroSection = () => {
   return (
     <section className="relative noise-bg overflow-hidden bg-[hsl(0,0%,100%)]">
-      <div className="relative z-10 max-w-content mx-auto px-4 py-16 md:py-24 text-center">
+      <div className="relative z-10 max-w-content mx-auto px-4 py-6 md:py-12 text-center">
 
 
 

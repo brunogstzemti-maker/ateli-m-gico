@@ -31,7 +31,7 @@ const DecisionSection = () => {
             <p className="font-body text-muted-foreground text-sm mb-4">
               Não, prefiro continuar anotando no papel
             </p>
-            <a href="#" className="font-body text-muted-foreground/60 text-xs underline hover:text-muted-foreground transition-colors">
+            <a href="/obrigada" className="font-body text-muted-foreground/60 text-xs underline hover:text-muted-foreground transition-colors">
               Dispensar oferta
             </a>
           </div>

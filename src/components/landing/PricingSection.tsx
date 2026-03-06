@@ -35,7 +35,7 @@ const PricingSection = () => {
             href="#"
             className="shimmer-btn block w-full bg-success hover:bg-success/90 text-success-foreground font-body font-bold text-base md:text-lg py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
-            ▶ SIM! QUERO O ATELIÊ DE PÁSCOA POR R$ 27
+            ▶ SIM! QUERO O ATELIÊ DE PÁSCOA POR R$ 37,00
           </a>
 
           <p className="font-body text-cream-warm/60 text-xs mt-4">

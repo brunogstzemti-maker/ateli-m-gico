@@ -21,7 +21,7 @@ const HeroSection = () => {
           className="font-body font-medium text-lg text-foreground max-w-xl mx-auto mb-12"
           style={{ animation: 'hero-headline 0.6s ease-out 0.2s both' }}
         >
-          Você tem as receitas agora.Mais vai ter muito trabalho para ter tudo organizado, com esse Aplicativo você organiza seu pedidos, calcula seus preços e acompanha sua met- tudo na palma da sua mão.
+          Você tem as receitas agora.Mais vai ter muito trabalho para ter tudo organizado, com esse Aplicativo você organiza seu pedidos, calcula seus preços e acompanha sua meta- tudo na palma da sua mão.
         </p>
 
         {/* Phone Mockup with animated screens */}

@@ -4,14 +4,8 @@ const HeroSection = () => {
   return (
     <section className="relative noise-bg overflow-hidden bg-[hsl(0,0%,100%)]">
       <div className="relative z-10 max-w-content mx-auto px-4 py-16 md:py-24 text-center">
-        {/* Badge */}
-        <div
-          className="inline-block bg-primary/15 border border-primary/30 rounded-full px-5 py-2 mb-8 font-body text-sm font-medium text-primary"
-          style={{ animation: 'hero-headline 0.5s ease-out' }}
-        >
-          <span style={{ animation: 'pulse-gentle 2s ease-in-out infinite', display: 'inline-block' }}>🎉</span>{' '}
-          Sua compra foi confirmada!
-        </div>
+
+
 
         {/* Headline */}
         <h1

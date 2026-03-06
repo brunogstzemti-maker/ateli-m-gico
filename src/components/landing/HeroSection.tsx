@@ -1,3 +1,5 @@
+import PhoneMockup from './PhoneMockup';
+
 const HeroSection = () => {
   return (
     <section className="relative noise-bg overflow-hidden">
@@ -29,26 +31,8 @@ const HeroSection = () => {
           — tudo na palma da mão.
         </p>
 
-        {/* Phone Mockup */}
-        <div
-          className="mx-auto w-[240px] md:w-[280px] rounded-[2rem] border-[6px] border-chocolate-deep bg-cream-dark p-3 shadow-warm-lg"
-          style={{ animation: 'hero-headline 0.8s ease-out 0.3s both' }}
-        >
-          <div className="rounded-[1.4rem] overflow-hidden bg-background">
-            <div className="p-4 space-y-3">
-              <div className="h-3 w-20 bg-primary/30 rounded-full" />
-              <div className="h-2 w-full bg-muted rounded-full" />
-              <div className="h-2 w-3/4 bg-muted rounded-full" />
-              <div className="grid grid-cols-2 gap-2 mt-4">
-                <div className="h-16 bg-primary/10 rounded-lg flex items-center justify-center text-2xl">📦</div>
-                <div className="h-16 bg-accent/20 rounded-lg flex items-center justify-center text-2xl">💰</div>
-                <div className="h-16 bg-success/10 rounded-lg flex items-center justify-center text-2xl">🛒</div>
-                <div className="h-16 bg-primary/10 rounded-lg flex items-center justify-center text-2xl">📊</div>
-              </div>
-              <div className="h-8 bg-primary rounded-lg mt-2" />
-            </div>
-          </div>
-        </div>
+        {/* Phone Mockup with animated screens */}
+        <PhoneMockup />
 
         {/* Scroll arrow */}
         <div className="mt-12 text-primary text-2xl" style={{ animation: 'bounce-arrow 2s ease-in-out infinite' }}>

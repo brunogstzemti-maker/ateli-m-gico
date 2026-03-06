@@ -162,6 +162,24 @@
   }
 }
 
+@keyframes mockup-slide-in {
+  0% { opacity: 0; transform: translateX(12px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes mockup-progress {
+  0% { width: 0; }
+  100% { width: 78%; }
+}
+
+.mockup-list-item {
+  animation: mockup-slide-in 0.4s ease-out both;
+}
+
+.mockup-progress-bar {
+  animation: mockup-progress 1s ease-out 0.3s both;
+}
+
 @keyframes shimmer {
   0% { left: -100%; }
   100% { left: 100%; }

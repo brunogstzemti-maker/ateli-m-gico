@@ -28,41 +28,40 @@ const ProductSection = () => {
         </p>
 
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-           {/* Recipes Collection Image */}
-           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-             <h3 className="font-display font-bold text-lg text-foreground mb-3">Sua coleção de receitas</h3>
-             <img src={recipesImage} alt="Sua coleção de receitas" className="w-full h-auto rounded-lg" />
-           </div>
-
-           {/* Orders Interface Image */}
-           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-             <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
-             <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
-           </div>
-
-           {/* Calculator Interface Image */}
-           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-             <h3 className="font-display font-bold text-lg text-foreground mb-3">Calculadora de precificação</h3>
-             <img src={calculatorImage} alt="Calculadora de precificação" className="w-full h-auto rounded-lg" />
-           </div>
-
-           {/* Shopping List Interface Image */}
-           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-             <h3 className="font-display font-bold text-lg text-foreground mb-3">Lista de compras inteligente</h3>
-             <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
-           </div>
-
-            {/* Dashboard Interface Image */}
-            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-              <h3 className="font-display font-bold text-lg text-foreground mb-3">Dashboard de vendas</h3>
-              <img src={dashboardImage} alt="Dashboard de vendas" className="w-full h-auto rounded-lg" />
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Sua coleção de receitas</h3>
+              <img src={recipesImage} alt="Sua coleção de receitas" className="w-full h-auto rounded-lg" />
             </div>
 
-            {/* Clients Management Interface Image */}
-            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-              <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de clientes</h3>
-              <img src={clientsImage} alt="Gestão de clientes" className="w-full h-auto rounded-lg" />
+            {/* Orders Interface Image */}
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
+              <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
             </div>
+
+            {/* Calculator Interface Image */}
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Calculadora de precificação</h3>
+              <img src={calculatorImage} alt="Calculadora de precificação" className="w-full h-auto rounded-lg" />
+            </div>
+
+            {/* Shopping List Interface Image */}
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Lista de compras inteligente</h3>
+              <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
+            </div>
+
+             {/* Dashboard Interface Image */}
+             <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+               <h3 className="font-display font-bold text-lg text-foreground mb-3">Dashboard de vendas</h3>
+               <img src={dashboardImage} alt="Dashboard de vendas" className="w-full h-auto rounded-lg" />
+             </div>
+
+             {/* Clients Management Interface Image */}
+             <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+               <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de clientes</h3>
+               <img src={clientsImage} alt="Gestão de clientes" className="w-full h-auto rounded-lg" />
+             </div>
          </div>
 
         <p className="font-body text-muted-foreground text-base mt-10">

@@ -1,4 +1,4 @@
-import PhoneMockup from './PhoneMockup';
+
 
 const HeroSection = () => {
   return (
@@ -49,8 +49,6 @@ const HeroSection = () => {
           Se você respondeu "ainda não sei" ou "vou anotar num papel"... você está prestes a deixar dinheiro na mesa.
         </p>
 
-        {/* Phone Mockup with animated screens */}
-        <PhoneMockup />
 
         {/* Scroll arrow */}
         <div className="mt-12 text-primary text-2xl" style={{ animation: 'bounce-arrow 2s ease-in-out infinite' }}>

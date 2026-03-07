@@ -1,8 +1,8 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import ordersImage from '@/assets/orders-interface.png';
+import calculatorImage from '@/assets/calculator-interface.png';
 
 const benefits = [
-  { icon: '💰', title: 'Calculadora de precificação', desc: 'Descubra o preço exato para lucrar de verdade' },
   { icon: '🛒', title: 'Lista de compras inteligente', desc: 'Gerada automaticamente pelos seus pedidos' },
   { icon: '🍫', title: 'Sua coleção de receitas', desc: 'Organize e acesse tudo em um clique' },
   { icon: '📊', title: 'Dashboard de vendas', desc: 'Acompanhe sua meta da Páscoa em tempo real' },
@@ -32,6 +32,12 @@ const ProductSection = () => {
           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
             <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
             <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
+          </div>
+
+          {/* Calculator Interface Image */}
+          <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+            <h3 className="font-display font-bold text-lg text-foreground mb-3">Calculadora de precificação</h3>
+            <img src={calculatorImage} alt="Calculadora de precificação" className="w-full h-auto rounded-lg" />
           </div>
 
           {benefits.map((b, i) => (

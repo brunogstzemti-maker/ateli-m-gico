@@ -4,6 +4,7 @@ import calculatorImage from '@/assets/calculator-interface.png';
 import shoppingListImage from '@/assets/shopping-list-interface.png';
 import recipesImage from '@/assets/recipes-collection-interface.png';
 import dashboardImage from '@/assets/dashboard-interface.png';
+import clientsImage from '@/assets/clients-management-interface.png';
 
 const benefits = [];
 
@@ -51,12 +52,18 @@ const ProductSection = () => {
              <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
            </div>
 
-           {/* Dashboard Interface Image */}
-           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-             <h3 className="font-display font-bold text-lg text-foreground mb-3">Dashboard de vendas</h3>
-             <img src={dashboardImage} alt="Dashboard de vendas" className="w-full h-auto rounded-lg" />
-           </div>
-        </div>
+            {/* Dashboard Interface Image */}
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Dashboard de vendas</h3>
+              <img src={dashboardImage} alt="Dashboard de vendas" className="w-full h-auto rounded-lg" />
+            </div>
+
+            {/* Clients Management Interface Image */}
+            <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+              <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de clientes</h3>
+              <img src={clientsImage} alt="Gestão de clientes" className="w-full h-auto rounded-lg" />
+            </div>
+         </div>
 
         <p className="font-body text-muted-foreground text-base mt-10">
           Tudo isso funciona direto no celular, sem instalar nada, sem complicação.

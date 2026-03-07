@@ -4,7 +4,7 @@ const PricingSection = () => {
   const ref = useScrollAnimation('scroll-scale-in');
 
   return (
-    <section className="bg-gradient-to-br from-chocolate-deep via-chocolate-deep to-chocolate-medium/70 py-16 md:py-24 px-4">
+    <section id="pricing" className="bg-gradient-to-br from-chocolate-deep via-chocolate-deep to-chocolate-medium/70 py-16 md:py-24 px-4">
       <div className="max-w-content mx-auto text-center">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-cream-warm mb-6">
           Quanto vale organizar sua Páscoa de uma vez por todas?

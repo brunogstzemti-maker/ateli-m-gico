@@ -4,6 +4,7 @@ import calculatorImage from '@/assets/calculator-interface.png';
 import shoppingListImage from '@/assets/shopping-list-interface.png';
 import recipesImage from '@/assets/recipes-collection-interface.png';
 import dashboardImage from '@/assets/dashboard-interface.png';
+import clientsImage from '@/assets/clients-management-interface.png';
 
 const benefits = [];
 

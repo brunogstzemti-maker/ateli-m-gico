@@ -2,9 +2,9 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import ordersImage from '@/assets/orders-interface.png';
 import calculatorImage from '@/assets/calculator-interface.png';
 import shoppingListImage from '@/assets/shopping-list-interface.png';
+import recipesImage from '@/assets/recipes-collection-interface.png';
 
 const benefits = [
-  { icon: '🍫', title: 'Sua coleção de receitas', desc: 'Organize e acesse tudo em um clique' },
   { icon: '📊', title: 'Dashboard de vendas', desc: 'Acompanhe sua meta da Páscoa em tempo real' },
 ];
 
@@ -28,23 +28,29 @@ const ProductSection = () => {
         </p>
 
         <div ref={ref} className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          {/* Orders Interface Image */}
-          <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-            <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
-            <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
-          </div>
+           {/* Recipes Collection Image */}
+           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+             <h3 className="font-display font-bold text-lg text-foreground mb-3">Sua coleção de receitas</h3>
+             <img src={recipesImage} alt="Sua coleção de receitas" className="w-full h-auto rounded-lg" />
+           </div>
 
-          {/* Calculator Interface Image */}
-          <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-            <h3 className="font-display font-bold text-lg text-foreground mb-3">Calculadora de precificação</h3>
-            <img src={calculatorImage} alt="Calculadora de precificação" className="w-full h-auto rounded-lg" />
-          </div>
+           {/* Orders Interface Image */}
+           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+             <h3 className="font-display font-bold text-lg text-foreground mb-3">Gestão de pedidos</h3>
+             <img src={ordersImage} alt="Gestão de pedidos" className="w-full h-auto rounded-lg" />
+           </div>
 
-          {/* Shopping List Interface Image */}
-          <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
-            <h3 className="font-display font-bold text-lg text-foreground mb-3">Lista de compras inteligente</h3>
-            <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
-          </div>
+           {/* Calculator Interface Image */}
+           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+             <h3 className="font-display font-bold text-lg text-foreground mb-3">Calculadora de precificação</h3>
+             <img src={calculatorImage} alt="Calculadora de precificação" className="w-full h-auto rounded-lg" />
+           </div>
+
+           {/* Shopping List Interface Image */}
+           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+             <h3 className="font-display font-bold text-lg text-foreground mb-3">Lista de compras inteligente</h3>
+             <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
+           </div>
 
           {benefits.map((b, i) => (
             <div

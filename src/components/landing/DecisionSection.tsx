@@ -18,7 +18,7 @@ const DecisionSection = () => {
               Sim, quero organizar minha Páscoa e maximizar meu lucro
             </p>
             <a
-              href="#"
+              href="#pricing"
               className="shimmer-btn block bg-success hover:bg-success/90 text-success-foreground font-body font-bold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/30"
             >
               Quero o Ateliê de Páscoa

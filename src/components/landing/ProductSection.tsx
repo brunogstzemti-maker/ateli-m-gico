@@ -3,10 +3,9 @@ import ordersImage from '@/assets/orders-interface.png';
 import calculatorImage from '@/assets/calculator-interface.png';
 import shoppingListImage from '@/assets/shopping-list-interface.png';
 import recipesImage from '@/assets/recipes-collection-interface.png';
+import dashboardImage from '@/assets/dashboard-interface.png';
 
-const benefits = [
-  { icon: '📊', title: 'Dashboard de vendas', desc: 'Acompanhe sua meta da Páscoa em tempo real' },
-];
+const benefits = [];
 
 const ProductSection = () => {
   const ref = useScrollAnimation('scroll-fade-up', true);
@@ -52,16 +51,11 @@ const ProductSection = () => {
              <img src={shoppingListImage} alt="Lista de compras inteligente" className="w-full h-auto rounded-lg" />
            </div>
 
-          {benefits.map((b, i) => (
-            <div
-              key={i}
-              className={`scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300 text-left`}
-            >
-              <span className="text-5xl block mb-3">{b.icon}</span>
-              <h3 className="font-display font-bold text-lg text-foreground mb-1">{b.title}</h3>
-              <p className="font-body text-muted-foreground text-sm">{b.desc}</p>
-            </div>
-          ))}
+           {/* Dashboard Interface Image */}
+           <div className="scroll-fade-up bg-background rounded-xl p-6 shadow-warm-sm border border-transparent hover:border-primary hover:-translate-y-1 hover:shadow-warm-md transition-all duration-300">
+             <h3 className="font-display font-bold text-lg text-foreground mb-3">Dashboard de vendas</h3>
+             <img src={dashboardImage} alt="Dashboard de vendas" className="w-full h-auto rounded-lg" />
+           </div>
         </div>
 
         <p className="font-body text-muted-foreground text-base mt-10">

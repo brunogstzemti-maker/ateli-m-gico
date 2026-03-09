@@ -1,10 +1,12 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import testimonialFernanda from '@/assets/testimonial-fernanda.jpg';
 import testimonialClaudia from '@/assets/testimonial-claudia.jpg';
+import testimonialLuiza from '@/assets/testimonial-luiza.png';
 
 const testimonials = [
   { name: 'Fernanda Souza', image: testimonialFernanda },
   { name: 'Cláudia Maria', image: testimonialClaudia },
+  { name: 'Luiza Santos', image: testimonialLuiza },
 ];
 
 const SocialProofSection = () => {

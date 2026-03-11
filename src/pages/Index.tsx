@@ -8,6 +8,7 @@ import FaqSection from '@/components/landing/FaqSection';
 import FinalUrgencySection from '@/components/landing/FinalUrgencySection';
 import DecisionSection from '@/components/landing/DecisionSection';
 import FooterSection from '@/components/landing/FooterSection';
+import MediaProofSection from '@/components/landing/MediaProofSection';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <div className="separator-gold max-w-content mx-auto px-4">
         <span className="text-primary text-sm">✦</span>
       </div>
+      <MediaProofSection />
       <ProductSection />
       <SocialProofSection />
       <PricingSection />

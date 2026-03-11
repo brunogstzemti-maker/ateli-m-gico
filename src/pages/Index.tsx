@@ -8,6 +8,7 @@ import FaqSection from '@/components/landing/FaqSection';
 import FinalUrgencySection from '@/components/landing/FinalUrgencySection';
 import DecisionSection from '@/components/landing/DecisionSection';
 import FooterSection from '@/components/landing/FooterSection';
+import MediaProofSection from '@/components/landing/MediaProofSection';
 
 const Index = () => {
   return (

@@ -9,7 +9,7 @@ const HeroSection = () => {
 
         {/* Headline */}
         <h1
-          className="font-display font-extrabold text-4xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
+          className="font-display font-extrabold text-2xl sm:text-3xl md:text-[52px] md:leading-[1.1] leading-tight tracking-wide text-foreground mb-6 uppercase"
           style={{ animation: 'hero-headline 0.6s ease-out' }}
         >
           Sua compra foi confirmada. 🎉

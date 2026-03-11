@@ -14,7 +14,8 @@ const HeroSection = () => {
         >
           Sua compra foi confirmada. 🎉
           <br />
-          Espere um pouco.
+          <span style={{ color: 'hsl(38, 39%, 65%)' }}>ANTES DE SAIR</span> Espere um pouco.
+          <br />
           <br />
           Tenho algo pra te mostrar que vai{' '}
           <span style={{ color: 'hsl(38, 39%, 65%)' }}>triplicar o seu lucro</span> nessa Páscoa.
